@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Webpage</title>
+    <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+    <header class="header">
+        <h1>Welcome</h1>
+    </header>
+    <div class="profile">
+        <img
+        data-testid="slackDisplayImage"
+        src="./assets/mySelfieImage.webp"
+        alt="Petra-Cae"
+        />
+        <span class="myInfo">
+            <h2 data-testid="slackUserName">Petra-Cae</h2>
+            <h3 data-testid="myTrack">Front-End</h3>
+        </span>
+    </div>
+    <div class="dateInfo">
+        <span>
+            <h4 id="today">
+                <span data-testid="currentDayOfTheWeek" ></span></h4>
+            <h4 data-testid="currentUTCTime" id="utcTime">
+                <span id="hours">00</span> :
+                <span id="minutes">00</span> :
+                <span  id="seconds">00</span> :
+                <span id="millisecs">00</span>
+            </h4>
+        </span>
+    </div>
+    <div class="gitlink">
+        <p>Link to GitHub repository
+            <a
+            data-testid="githubURL"
+            href="https://github.com/Petra-Cae/HNG/personal-webpage" >here
+            </a>
+        </p>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
